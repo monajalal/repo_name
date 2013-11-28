@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/repo_name" config.wsgi:application
